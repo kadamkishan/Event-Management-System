@@ -1,0 +1,41 @@
+.event-details-container {
+  width: 100%;
+  padding: 20px;
+}
+
+.event-details-wrapper {
+  margin-top: 10%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.event-details-wrapper img {
+  
+  max-height: 300px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 30px;
+}
+
+.event-details-content {
+  
+  text-align: center;
+  
+}
+
+.event-small-details {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.event-date,
+.event-location {
+  margin: 0 10px;
+}
+
+.event-description {
+  line-height: 1.6;
+}
